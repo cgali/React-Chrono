@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Counter from './components/Counter';
+import Chrono from './components/Chrono';
 import './App.css';
 // import Button from './components/Button';
 
@@ -12,7 +12,7 @@ class App extends Component {
 
   render(){
     return (
-      <Counter /> 
+      <Chrono /> 
     );
   }
 }

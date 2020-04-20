@@ -12,6 +12,10 @@ body {
   font-size: 2rem;
 }
 
+.counter {
+  width: 10.5rem;
+}
+
 .buttons-box {
   display: flex;
   border: 1px solid black;

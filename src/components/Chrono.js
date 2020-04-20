@@ -1,7 +1,7 @@
 import React, { Component }  from 'react';
 
 
-class Counter extends Component {
+class Chrono extends Component {
 
     state = {
       seconds: 57,
@@ -79,7 +79,7 @@ class Counter extends Component {
       <div className="counter-box">
         <p>Time</p>
         <hr className="separator"/>
-        <div>{ this.getHours() } : { this.getMinutes() } : { this.getSeconds() }</div>
+        <div className="counter">{ this.getHours() } : { this.getMinutes() } : { this.getSeconds() }</div>
         <hr className="separator"/>
         <div className="buttons-box">
           {this.StartStop()}
@@ -93,4 +93,4 @@ class Counter extends Component {
 }
 
 
-export default Counter;
+export default Chrono;
